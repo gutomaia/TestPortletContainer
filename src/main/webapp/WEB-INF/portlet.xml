@@ -23,5 +23,9 @@
 			<short-title>TestServeResourceBasic</short-title>
 			<keywords>portlet, serveResource</keywords>
 		</portlet-info>
+		<container-runtime-option>
+			<name>org.gatein.pc.remotable</name>
+			<value>true</value>
+		</container-runtime-option>  
 	</portlet>
 </portlet-app>
