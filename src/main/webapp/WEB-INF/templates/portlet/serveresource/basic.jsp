@@ -3,7 +3,8 @@
 
 <p:defineObjects  />
 
-<script type="text/javascript"><!--
+<script type="text/javascript">
+	//<!--
 
 	function testServeResourceBasic(namespace, ajaxResource){
 		var resultMsg = "";
@@ -38,6 +39,7 @@
 		resultMsg = (resultMsg == "")?response:resultMsg;
 		resultDiv.innerHTML = resultMsg;
 	}
+	// -->
 </script>
 
 <h1>TestServeResourceBasic</h1>
